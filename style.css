@@ -12,23 +12,24 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    background: linear-gradient(135deg, #0a0a0a, #0f1b2d); /* Hitam ke Biru Gelap */
 }
 
 .login-container {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     padding: 20px;
     border-radius: 10px;
     backdrop-filter: blur(10px);
     text-align: center;
     width: 300px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 174, 255, 0.3);
 }
 
 h2 {
-    color: #fff;
+    color: #00aaff;
     margin-bottom: 20px;
     font-weight: 600;
+    text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #0077cc; /* Efek Neon */
 }
 
 .input-group {
@@ -43,6 +44,13 @@ h2 {
     outline: none;
     font-size: 16px;
     font-weight: 400;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 button {
@@ -50,27 +58,32 @@ button {
     padding: 12px;
     border: none;
     border-radius: 5px;
-    background: #fff;
-    color: #ff4b2b;
+    background: rgba(0, 174, 255, 0.2);
+    color: #00aaff;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
+    text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #0077cc; /* Efek Neon */
+    box-shadow: 0 0 10px rgba(0, 174, 255, 0.5);
 }
 
 button:hover {
-    background: #ff4b2b;
+    background: #00aaff;
     color: #fff;
+    text-shadow: 0 0 15px #ffffff, 0 0 30px #00aaff;
+    box-shadow: 0 0 20px rgba(0, 174, 255, 0.8);
 }
 
 .register {
     margin-top: 10px;
-    color: #fff;
+    color: #00aaff;
     font-weight: 300;
+    text-shadow: 0 0 5px #00aaff, 0 0 10px #0077cc;
 }
 
 .register a {
-    color: #fff;
+    color: #00aaff;
     font-weight: 600;
     text-decoration: none;
 }
