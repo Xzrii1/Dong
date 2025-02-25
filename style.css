@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -26,6 +28,7 @@ body {
 h2 {
     color: #fff;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .input-group {
@@ -34,21 +37,23 @@ h2 {
 
 .input-group input {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: none;
     border-radius: 5px;
     outline: none;
     font-size: 16px;
+    font-weight: 400;
 }
 
 button {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: none;
     border-radius: 5px;
     background: #fff;
     color: #ff4b2b;
     font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -61,10 +66,11 @@ button:hover {
 .register {
     margin-top: 10px;
     color: #fff;
+    font-weight: 300;
 }
 
 .register a {
     color: #fff;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
 }
